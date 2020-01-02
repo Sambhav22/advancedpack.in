@@ -1,0 +1,92 @@
+@media only screen and (min-width:1000px) and (max-width:1169px){a.logo{margin:1px 0px 0px 50px;}
+.feature_section4 .right{width:50%;padding:80px 40px 40px 30px;}
+.feature_section1 .box i{height:78px;width:78px;line-height:75px;font-size:27px;margin:-65px 0px 0px 54px;}
+.feature_section1 .box i{margin-left:110px;}
+.feature_section1 .box{width:100%;margin:0 auto 50px auto;}
+.feature_section3 .box .circle{margin-left:150px;}
+.button2{display:none;}
+}
+@media only screen and (min-width:768px) and (max-width:999px){.sticky-wrapper{height:500px;}
+.container{width:94%;}
+.logo{width:50%;}
+.menu_main{width:97%;position:absolute;}
+.team-box1 .hover-box{width:100%;top:340px;padding-left:40px;padding-right:40px;}
+.team-box1:hover .hover-box, .team-box1.active .hover-box{top:200px;}
+.feature_section2 .cirbox{margin-left:0px;}
+.feature_section3 .box .circle{margin-left:80px;}
+.feature_section4 .slidesec{padding:20px 5px;}
+.feature_section4 .slidesec .contentbox{padding:20px 5px;}
+.feature_section5 .left{float:left;width:30%;}
+.feature_section5 .right{width:70%;padding:80px 10px 40px 30px;}
+.text-big{font-size:52px;line-height:52px;}
+.demo1_blog .share-icon{margin-left:162px;}
+.feature_section7 .contbox{width:100%;float:left;background-color:#f1f1f1;padding:20px 20px;}
+.feature_section1 .box i{height:68px;width:68px;line-height:65px;font-size:27px;margin:-59px 0px 0px 35px;}
+.feature_section1 .box i{margin-left:110px;}
+.feature_section1 .box{width:100%;margin:0 auto 50px auto;}
+.feature_section4 i{margin-left:134px;}
+.pricing-box .linebtn.one{padding:8px 6px;font-size:14px;text-transform:none;}
+.button2{display:none;}
+}
+@media only screen and (min-width:640px) and (max-width:767px){.container{width:94%;}
+.logo{width:50%;}
+.menu_main{width:97%;position:absolute;}
+.team-box1 .hover-box{width:100%;top:340px;padding-left:40px;padding-right:40px;}
+.team-box1:hover .hover-box, .team-box1.active .hover-box{top:200px;}
+.feature_section2 .cirbox{margin-left:px;}
+.feature_section3 .box .circle{margin-left:80px;}
+.feature_section4 .slidesec{padding:20px 5px;}
+.feature_section4 .slidesec .contentbox{padding:20px 5px;}
+.feature_section5 .left{float:left;width:30%;}
+.feature_section4 .right{width:70%;padding:80px 10px 40px 30px;}
+.pricing-box .linebtn.one{padding:8px 6px;font-size:14px;text-transform:none;}
+.text-big{font-size:52px;line-height:52px;}
+.demo1_blog .share-icon{margin-left:162px;}
+.feature_section8 .contbox{width:100%;float:left;background-color:#f1f1f1;padding:20px 20px;}
+.feature_section1 .box i{margin-left:200px;}
+.feature_section1 .box{width:100%;margin:0 auto 50px auto;}
+.feature_section4 i{margin-left:134px;}
+.button2{display:none;}
+}
+@media only screen and (min-width:480px) and (max-width:639px){.container{width:94%;}
+.logo{width:100%;}
+.menu_main{width:97%;position:absolute;}
+.team-box1 .hover-box{padding-left:30px;padding-right:30px;}
+.feature_section3 .cir1{margin:10px 10px;}
+.feature_section4 .slidesec{padding:20px 5px;}
+.feature_section4 .slidesec .contentbox{padding:20px 5px;}
+.feature_section3 .cir1{margin-left:50px;}
+.cirbut2{display:none;}
+.feature_section5 .left{float:left;width:100%;}
+.feature_section5 .right{width:100%;padding:10px 10px 40px 30px;}
+.text-big{font-size:42px;line-height:42px;}
+.demo1_blog .share-icon{margin-left:222px;}
+.feature_section8 .contbox{width:100%;float:left;background-color:#f1f1f1;padding:20px 20px;}
+.feature_section8 .btn3{display:none;}
+.feature_section1 .box i{margin-left:75px;}
+.feature_section1 .box{width:100%;margin:0 auto 50px auto;}
+.feature_section1 .btn3{display:none;}
+.feature_section4 i{margin-left:214px;}
+.less6{width:100%;}
+.button2{display:none;}
+}
+@media only screen and (max-width:479px){.container{width:94%;}
+.logo{width:100%;}
+.menu_main{width:97%;position:absolute;}
+.team-box1 .hover-box{padding-left:30px;padding-right:30px;}
+.feature_section3 .cir1{margin:10px 10px;}
+.feature_section4 .slidesec{padding:20px 5px;}
+.feature_section4 .slidesec .contentbox{padding:20px 5px;}
+.cirbut2{display:none;}
+.feature_section5 .left{float:left;width:100%;}
+.feature_section5 .right{width:100%;padding:10px 10px 40px 30px;}
+.text-big{font-size:42px;line-height:42px;}
+.demo1_blog .share-icon{margin-left:222px;}
+.feature_section8 .btn3{display:none;}
+.feature_section1 .box i{margin-left:75px;}
+.feature_section1 .box{width:100%;margin:0 auto 50px auto;}
+.feature_section1 .btn3{display:none;}
+.feature_section4 i{margin-left:214px;}
+.less6{width:100%;padding-left:41px;}
+.button2{display:none;}
+}

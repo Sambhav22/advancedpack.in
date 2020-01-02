@@ -1,0 +1,339 @@
+.demo {
+    background-image:url(../images/dynamic/dynamic-2.jpg);
+	padding: 20px 0 70px;
+}
+
+.pricingTable {
+    padding-bottom: 100px;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    box-shadow: 0 0 5px #c5c3c3;
+    border-radius: 3px;
+}
+
+.pricingTable:before {
+    content: "";
+    width: 80%;
+    height: 10px;
+    background: #727cb6;
+    margin: 0 auto;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+}
+
+.pricingTable .title {
+    display: inline-block;
+    width: 80%;
+    margin: 0 0 40px 0;
+    background: #727cb6;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.pricingTable .title:before,
+.pricingTable .title:after {
+    content: "";
+    border-right: 10px solid #4a59ab;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.pricingTable .title:after {
+    border-right: none;
+    border-left: 10px solid #4a59ab;
+    left: auto;
+    right: -10px;
+}
+
+.pricingTable .title span {
+    display: block;
+    padding: 25px 0;
+}
+
+.pricingTable .title span:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    bottom: -21px;
+    background: linear-gradient(-45deg, transparent 75%, #727cb6 75%) 0 50%, linear-gradient( 45deg, transparent 75%, #727cb6 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 16px;
+}
+
+.pricingTable .pricing-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricingTable .pricing-content li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #727cb6;
+    line-height: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.pricingTable .pricing-content li:last-child {
+    margin-bottom: 0;
+}
+
+.pricingTable .pricing-content li:before {
+    content: "";
+    width: 30px;
+    height: 100%;
+    background: #727cb6;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.pricingTable .pricing-content li:after {
+    content: "";
+    border-left: 15px solid #727cb6;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.pricingTable .pricing-content i {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.pricingTable .pricing-content i:after {
+    content: "";
+    border-right: 10px solid #4a59ab;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: -10px;
+}
+
+.pricingTable .price-value {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #727cb6;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    right: 0;
+}
+
+.pricingTable .pricingTable-signup {
+    display: block;
+    padding: 21px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+}
+
+.pricingTable .pricingTable-signup:before,
+.pricingTable .pricingTable-signup:after {
+    content: "";
+    width: 53%;
+    height: 15px;
+    background: #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transform: rotate(20deg);
+}
+
+.pricingTable .pricingTable-signup:after {
+    left: auto;
+    right: 0;
+    transform: rotate(-20deg);
+}
+
+.pricingTable .amount {
+    display: block;
+    padding: 15px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pricingTable .amount span {
+    display: inline;
+    font-size: 16px;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    top: -8px;
+}
+.amount a{
+	font-size: 19px;
+    color: #fff;
+}
+/**green **/
+.pricingTable.green:before,
+.pricingTable.green .title,
+.pricingTable.green .price-value,
+.pricingTable.green .pricing-content li:before {
+    background: #1abc9c;
+}
+.pricingTable.green .title span:after {
+    background: linear-gradient(-45deg, transparent 75%, #1abc9c 75%) 0 50%, linear-gradient( 45deg, transparent 75%, #1abc9c 75%) 0 50%;
+    background-size: 16px;
+}
+.pricingTable.green .pricing-content li {
+    color: #1abc9c;
+}
+.pricingTable.green .pricing-content li:after {
+    border-left: 15px solid #1abc9c;
+}
+.pricingTable.green .title:before,
+.pricingTable.green .pricing-content i:after {
+    border-right: 10px solid #11927a;
+}
+.pricingTable.green .title:after {
+    border-left: 10px solid #11927a;
+}
+/**bagany **/
+.pricingTable.bagany:before,
+.pricingTable.bagany .title,
+.pricingTable.bagany .price-value,
+.pricingTable.bagany .pricing-content li:before {
+    background: #727cb6;
+}
+.pricingTable.bagany .title span:after {
+    background: linear-gradient(-45deg, transparent 75%, #727cb6 75%) 0 50%, linear-gradient( 45deg, transparent 75%, #727cb6 75%) 0 50%;
+    background-size: 16px;
+}
+.pricingTable.bagany .pricing-content li {
+    color: #727cb6;
+}
+.pricingTable.bagany .pricing-content li:after {
+    border-left: 15px solid #727cb6;
+}
+.pricingTable.bagany .title:before,
+.pricingTable.bagany .pricing-content i:after {
+    border-right: 10px solid #727cb6;
+}
+.pricingTable.bagany .title:after {
+    border-left: 10px solid #727cb6;
+}
+/**blue **/
+.pricingTable.blue:before,
+.pricingTable.blue .title,
+.pricingTable.blue .price-value,
+.pricingTable.blue .pricing-content li:before {
+    background: #3498db;
+}
+.pricingTable.blue .title span:after {
+    background: linear-gradient(-45deg, transparent 75%, #3498db 75%) 0 50%, linear-gradient( 45deg, transparent 75%, #3498db 75%) 0 50%;
+    background-size: 16px;
+}
+.pricingTable.blue .pricing-content li {
+    color: #3498db;
+}
+.pricingTable.blue .pricing-content li:after {
+    border-left: 15px solid #3498db;
+}
+.pricingTable.blue .title:before,
+.pricingTable.blue .pricing-content i:after {
+    border-right: 10px solid #3498db;
+}
+.pricingTable.blue .title:after {
+    border-left: 10px solid #3498db;
+}
+/**purple **/
+.pricingTable.purple:before,
+.pricingTable.purple .title,
+.pricingTable.purple .price-value,
+.pricingTable.purple .pricing-content li:before {
+    background: #cf4d78;
+}
+
+.pricingTable.purple .title span:after {
+    background: linear-gradient(-45deg, transparent 75%, #cf4d78 75%) 0 50%, linear-gradient( 45deg, transparent 75%, #cf4d78 75%) 0 50%;
+    background-size: 16px;
+}
+
+.pricingTable.purple .pricing-content li {
+    color: #cf4d78;
+}
+
+.pricingTable.purple .pricing-content li:after {
+    border-left: 15px solid #cf4d78;
+}
+
+.pricingTable.purple .title:before,
+.pricingTable.purple .pricing-content i:after {
+    border-right: 10px solid #ae365e;
+}
+
+.pricingTable.purple .title:after {
+    border-left: 10px solid #ae365e;
+}
+.price-data02 h1{
+	font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+	text-shadow: 2px 2px 4px #c4c4c4;
+}
+.price-data02 h1 span{
+	color:#22ac9c;
+}
+.price-data02 hr{
+	margin-top: 17px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #22ac9c;
+    width: 28%;
+    margin-left: 28em;
+}
+.price-data02 p{
+	line-height: 23px;
+    font-size: 15px;
+    padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 990px) {
+    .pricingTable {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 480px){
+	.price-data02 h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 2px 2px 4px #c4c4c4;
+}
+}
+
+
+@media (max-width: 320px){
+	.pricingTable .pricingTable-signup {
+    font-size: 15px;
+	}
+	.amount a {
+    font-size: 14px;
+	}
+
+}

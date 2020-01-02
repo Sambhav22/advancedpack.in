@@ -1,0 +1,69 @@
+ul.before_after_projects{padding:50px 5% 30px;position:relative;}
+ul.before_after_projects li{width:50%;float:left;list-style:none;}
+ul.before_after_projects li .inner{width:90%;margin:auto;border-radius:15px;box-shadow:0 -1px 0 3px #4b5c6e;border:12px solid #526477;overflow:hidden;}
+ul.before_after_projects li .inner figure{width:100%;height:auto;}
+ul.before_after_projects li .inner figure img{width:100%;height:auto;display:block;}
+ul.before_after_projects:before{background:url(../error1354.html) no-repeat;background-position:0 -70px;width:170px;height:40px;content:'';left:50%;top:3px;display:block;position:absolute;transform:translate(-50%, 0)}
+ul.before_after_projects .carousel-control.left,
+ul.before_after_projects .carousel-control.right{background:none !important;}
+ul.before_after_projects .carousel-control{width:inherit !important;}
+ul.before_after_projects .carousel-control.left{left:2%;top:45%;}
+ul.before_after_projects .carousel-control.right{right:2%;top:45%;}
+ul.before_after_projects .carousel-control .prev,
+ul.before_after_projects .carousel-control .next{background:url(../error1354.html) no-repeat;width:22px;height:93px;display:block;}
+ul.before_after_projects .carousel-control .prev{background-position:-377px 0;}
+ul.before_after_projects .carousel-control .next{background-position:-409px 0;}
+.carousel-indicators{bottom:-25px;}
+.technology_con{background:url(../images/technology_bg.png) no-repeat right 30px;background-attachment:fixed;width:100%;text-align:center;padding:85px 0 145px 0;}
+.technology_con .title1:before{background-color:#71be3e;}
+.technology_con ul{margin:75px 0 0 0;}
+.technology_con ul li{list-style:none;width:25%;float:left;position:relative;}
+.our-technology-1 h2{font-size:36px;text-align:center;font-weight:600;color:#08173a;margin-top:0px;text-transform:capitalize;line-height:28px;}
+.our-technology-1 hr{margin-top:17px;margin-bottom:17px;border:0;border-top:2px solid #08173a;width:23%;}
+.our-technology-1 p{line-height:22px;font-size:16px;color:#08173a;padding-bottom:30px;}
+.our-technology-1 p i{font-size:42px;color:#f16623;float:left;width:20px;height:32px;margin-right:11px;}
+.technology_con ul li .box{background:#fff;height:185px;width:185px;border:1px solid #f36444;margin:auto;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);box-shadow:7px 0px 0 0 rgba(204, 204, 204, 0.5);}
+.technology_con ul li:hover .box{box-shadow:7px 0px 0 0 rgba(204, 204, 204, 1);border:1px solid #f5a63f;box-shadow:inset 7px 0px 5px 0 rgba(204, 204, 204, 0.3);overflow:hidden;}
+.technology_con ul li:nth-child(5){margin-left:142px;}
+.technology_con ul li:nth-child(5),
+.technology_con ul li:nth-child(6),
+.technology_con ul li:nth-child(7){margin-top:-38px;}
+.technology_con ul li .box figure{width:100%;height:100%;position:relative;-ms-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);transform:rotate(-45deg);display:block;overflow:hidden;}
+.t_logo1{background-image:url(../images/language/pic-1.png);width:131px;height:68px;}
+.technology_con ul li .box .t_logo2{background-position:-189px -90px;width:116px;height:70px;}
+.technology_con ul li .box .t_logo3{background-position:-307px -115px;width:124px;height:90px;}
+.technology_con ul li .box .t_logo4{background-position:0 -198px;width:134px;height:100px;}
+.technology_con ul li .box .t_logo5{background-position:-139px -175px;width:143px;height:85px;}
+.technology_con ul li .box .t_logo6{background-position:-294px -215px;width:117px;height:97px;}
+.technology_con ul li .box .t_logo7{background-position:0 -315px;width:87px;height:120px;}
+.technology_con ul li .box figure:before{position:absolute;top:0;left:-100%;z-index:2;display:block;content:'';width:50%;height:100%;background:-webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .7) 100%);background:linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .7) 100%);-webkit-transform:skewX(0deg);transform:skewX(0deg);}
+.technology_con ul li .box:hover figure::before{-webkit-animation:shine 2s;animation:shine 2s;}
+.our-technology-2 img{transform:rotate(-45deg)!important;margin-right:32px;padding-top:41px;}
+@-webkit-keyframes shine{100%{left:125%;}
+}
+@keyframes shine{100%{left:125%;}
+}
+.rust-estmt-1{background:#71be3e;padding:55px 0;position:relative;overflow:hidden;}
+.rust-estmt-1 .rocket{position:absolute;z-index:1;right:0;top:0;}
+.rust-estmt-1 .container{position:relative;z-index:2;}
+.rust-estmt-1:before,
+.rust-estmt-1:after{background:url(../error1354.html) repeat-x;height:2px;width:100%;position:absolute;content:'';z-index:3;}
+.rust-estmt-1:before{top:10px;}
+.rust-estmt-1:after{bottom:10px;}
+.rust-estmt-1 .left{border-right:1px solid #fff;min-height:100px;text-align:right;padding-right:30px;}
+.rust-estmt-1 .left h3{font-size:35px;line-height:40px;color:#fff;font-family:'Handlee', cursive;}
+.rust-estmt-1 .right{padding-left:30px;}
+.rust-estmt-1 .btn-default{font:600 18px/52px 'proxima_nova_rgbold', sans-serif;color:#666 !important;height:50px;padding:0 4.3em;border:0;border-radius:2px;outline:none;background:#fff !important;text-transform:uppercase;box-shadow:2px 2px 0 1px rgba(0, 0, 0, .2);margin:25px 0 0 0;display:inline-block;}
+.rust-estmt-1 .btn-default:active{transform:translateY(2px);box-shadow:none;}
+.rust-estmt-2{background:#fff;padding:55px 0;position:relative;overflow:hidden;}
+.rust-estmt-2 .rocket{position:absolute;z-index:1;right:0;top:0;}
+.rust-estmt-2 .container{position:relative;z-index:2;}
+.rust-estmt-2 .left{border-right:1px solid #eee;min-height:100px;text-align:right;padding-right:30px;}
+.rust-estmt-2 .left h3{font-size:35px;line-height:40px;color:#1968d3;font-family:'Handlee', cursive;}
+.rust-estmt-2 .right{padding-left:30px;}
+.rust-estmt-2 .btn-default{font:600 18px/52px 'proxima_nova_rgbold', sans-serif;color:#fff !important;height:50px;display:inline-block;padding:0 4.3em;border:0;border-radius:2px;outline:none;background:#f5a63f !important;text-transform:uppercase;box-shadow:2px 2px 0 1px #c68531;margin:25px 0 0 0;}
+.rust-estmt-2 .btn-default:active{transform:translateY(2px);box-shadow:none;}
+@media (max-width:480px){.technology_con ul li:nth-child(5), .technology_con ul li:nth-child(6), .technology_con ul li:nth-child(7){margin-top:0px;}
+.technology_con ul li{width:100%;}
+.technology_con ul li:nth-child(5){margin-left:0px;}
+}
